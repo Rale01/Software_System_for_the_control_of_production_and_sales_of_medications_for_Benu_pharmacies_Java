@@ -5,6 +5,7 @@
 Welcome to the Java-based Client-Server System with MySQL Integration project. This application is designed to facilitate client-server communication with a MySQL database backend. The project is structured into three main components: ServerskiProgram (Server-side), KlijentskiProgram (Client-side), and Zajednicki (Shared classes).
 
 ## Project Organization
+![image](https://github.com/Rale01/Software_System_for_the_control_of_production_and_sales_of_medications_for_Benu_pharmacies_Java/assets/117539174/1bba7e5b-7e73-4eae-875a-588db9f7a7e1)
 
 ### ServerskiProgram (Server-side)
 - Manages communication threads with clients.
