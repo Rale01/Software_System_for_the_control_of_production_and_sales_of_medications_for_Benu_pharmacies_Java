@@ -1,6 +1,7 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
  */
 package transfer;
 
@@ -8,37 +9,35 @@ import java.io.Serializable;
 
 /**
  *
- * @author Dell
+ * @author Rastko
  */
-public class KlijentskiZahtev implements Serializable{
-    
-    private int operacija;
-    private Object parametar;
+public class KlijentskiZahtev implements Serializable {
 
-    public KlijentskiZahtev(int operacija, Object parametar) {
-        this.operacija = operacija;
-        this.parametar = parametar;
-    }
+    private int operation;
+    private Object data;
 
     public KlijentskiZahtev() {
     }
 
-    public int getOperacija() {
-        return operacija;
+    public KlijentskiZahtev(int operation, Object data) {
+        this.operation = operation;
+        this.data = data;
     }
 
-    public void setOperacija(int operacija) {
-        this.operacija = operacija;
+    public Object getData() {
+        return data;
     }
 
-    public Object getParametar() {
-        return parametar;
+    public int getOperation() {
+        return operation;
     }
 
-    public void setParametar(Object parametar) {
-        this.parametar = parametar;
+    public void setData(Object data) {
+        this.data = data;
     }
-    
-    
-    
+
+    public void setOperation(int operation) {
+        this.operation = operation;
+    }
+
 }
